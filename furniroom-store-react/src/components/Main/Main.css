@@ -1,7 +1,7 @@
 .carousel-background {
     position: relative;
-    width: 100%;
-    height: 100%; /* Висота каруселі на весь екран */
+    width: 75%;
+    height: 100vh; /* Висота каруселі на весь екран */
     overflow: hidden; /* Сховати вихідні за межі слайди */
     background-color: #f9f9f9;
 }
@@ -13,12 +13,12 @@
 }
 
 .slide {
-    width: 80vw; /* Ширина кожного слайда дорівнює ширині контейнера */
+    width: 75%; /* Ширина кожного слайда дорівнює ширині контейнера */
     flex-shrink: 0; /* Не стискається */
 }
 
 .carousel-photo {
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 100vh;
     object-fit: cover; /* Підгонка зображення */
 }

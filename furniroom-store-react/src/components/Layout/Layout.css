@@ -1,17 +1,17 @@
 .layout {
-    display: flex; /* Вирівнюємо компоненти в рядок */
-    height: 100vh; /* Займаємо всю висоту екрану */
-    overflow: hidden;
+    display: flex;
+    height: 100vh;
 }
 
 .left-menu-container {
-    width: 25%; /* Ширина меню — 25% */
-    background-color: white;
-    border-right: 1px solid #ccc; /* Лінія між меню та каруселлю */
+    width: 20%; /* Ширина левого меню */
+    background-color: #12192c;
+    color: #fff;
+    padding: 20px;
 }
 
-.carousel-container {
-    width: 75%; /* Ширина каруселі — 75% */
-    position: relative; /* Для точного розташування елементів у каруселі */
-    background-color: #f0f0f0; /* Фоновий колір */
+.content-container {
+    width: 80%; /* Оставшаяся ширина для контента */
+    padding: 20px;
+    overflow: auto;
 }

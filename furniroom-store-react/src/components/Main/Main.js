@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
-import './CarouselBackground.css';
+import './Main.css';
 
 // Імпортуємо зображення
 import photo1 from '../../images/Photo1.jpg';
 import photo2 from '../../images/Photo2.jpg';
 import photo3 from '../../images/Photo3.jpg';
 
-function CarouselBackground() {
+function Main() {
     const slides = [photo1, photo2, photo3]; // Масив зображень
     const carouselRef = useRef(null); // Ссилка на контейнер слайдів
 
@@ -63,4 +63,4 @@ function CarouselBackground() {
     );
 }
 
-export default CarouselBackground;
+export default Main;
