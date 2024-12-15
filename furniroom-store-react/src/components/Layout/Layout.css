@@ -1,0 +1,17 @@
+.layout {
+    display: flex; /* Вирівнюємо компоненти в рядок */
+    height: 100vh; /* Займаємо всю висоту екрану */
+    overflow: hidden;
+}
+
+.left-menu-container {
+    width: 25%; /* Ширина меню — 25% */
+    background-color: white;
+    border-right: 1px solid #ccc; /* Лінія між меню та каруселлю */
+}
+
+.carousel-container {
+    width: 75%; /* Ширина каруселі — 75% */
+    position: relative; /* Для точного розташування елементів у каруселі */
+    background-color: #f0f0f0; /* Фоновий колір */
+}
