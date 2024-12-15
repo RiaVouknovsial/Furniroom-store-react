@@ -1,0 +1,56 @@
+.left-menu {
+    background-color: white !important; /* Основной фон меню — белый */
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем все элементы по горизонтали */
+    justify-content: flex-start; /* Выравнивание по вертикали сверху */
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем изображение и слоган по горизонтали */
+    margin-bottom: 20px; /* Отступ между логотипом и списком */
+}
+
+.logo {
+    margin-top: 15px; 
+    width: 150px; /* Размер изображения */
+    height: 150px;
+    object-fit: cover; /* Подгонка изображения по размеру */
+}
+
+.company-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px; /* Отступ между изображением и названием */
+    text-align: center;
+    color: #004225;
+}
+
+.slogan {
+    font-size: 16px;
+    font-style: italic;
+    color: #004225;
+    text-align: center;
+}
+
+.left-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Занимаем всю ширину */
+}
+
+.left-menu li {
+    margin: 10px 0;
+    cursor: pointer;
+    color: #004225; /* Зеленый текст #013220 або #004225*/
+    font-size: 18px;
+    text-align: center; /* Центрируем текст в списке */
+}
+
+.left-menu li:hover {
+    background-color: #f0f0f0; /* Подсветка при наведении */
+}
